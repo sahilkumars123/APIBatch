@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="specificationbuilder.RequestSpecificationTest">
+      <class name="POSTAPICalls.BookingAuthTest">
         <methods>
-          <include name="user_req_get"/>
+          <include name="post_req_BookingAuthTokenTest_WithJSONFile"/>
         </methods>
-      </class> <!-- specificationbuilder.RequestSpecificationTest -->
+      </class> <!-- POSTAPICalls.BookingAuthTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

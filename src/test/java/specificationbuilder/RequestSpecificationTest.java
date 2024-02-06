@@ -24,8 +24,6 @@ public class RequestSpecificationTest {
 						.build();
 		
 		return requestSpec;
-		
-		
 	}
 	
 public static RequestSpecification user_req_get_spec_WithQueryParam() {
