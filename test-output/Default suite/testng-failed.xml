@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POSTAPICalls.BookingAuthTest">
+      <class name="POSTAPICalls.CreateUserTest">
         <methods>
-          <include name="post_req_BookingAuthTokenTest_WithJSONFile"/>
+          <include name="create_user"/>
+          <include name="createUserId"/>
         </methods>
-      </class> <!-- POSTAPICalls.BookingAuthTest -->
+      </class> <!-- POSTAPICalls.CreateUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T10:47:52 IST" name="Default suite" finished-at="2024-02-06T10:47:58 IST" duration-ms="6042">
+  <suite started-at="2024-02-08T19:06:31 IST" name="Default suite" finished-at="2024-02-08T19:06:37 IST" duration-ms="6036">
     <groups>
     </groups>
-    <test started-at="2024-02-06T10:47:52 IST" name="Default test" finished-at="2024-02-06T10:47:58 IST" duration-ms="6042">
-      <class name="POSTAPICalls.BookingAuthTest">
-        <test-method signature="post_req_BookingAuthTokenTest_WithJSONFile()[pri:0, instance:POSTAPICalls.BookingAuthTest@3f56875e]" started-at="2024-02-06T10:47:52 IST" name="post_req_BookingAuthTokenTest_WithJSONFile" finished-at="2024-02-06T10:47:58 IST" duration-ms="5960" status="PASS">
+    <test started-at="2024-02-08T19:06:31 IST" name="Default test" finished-at="2024-02-08T19:06:37 IST" duration-ms="6036">
+      <class name="POSTAPICalls.CreateUserTest">
+        <test-method is-config="true" signature="createUserId()[pri:0, instance:POSTAPICalls.CreateUserTest@50caa560]" started-at="2024-02-08T19:06:31 IST" name="createUserId" finished-at="2024-02-08T19:06:36 IST" duration-ms="5089" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- post_req_BookingAuthTokenTest_WithJSONFile -->
-      </class> <!-- POSTAPICalls.BookingAuthTest -->
+        </test-method> <!-- createUserId -->
+        <test-method signature="create_user()[pri:0, instance:POSTAPICalls.CreateUserTest@50caa560]" started-at="2024-02-08T19:06:36 IST" name="create_user" finished-at="2024-02-08T19:06:37 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_user -->
+      </class> <!-- POSTAPICalls.CreateUserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
