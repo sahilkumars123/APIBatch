@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T19:06:31 IST" name="Default suite" finished-at="2024-02-08T19:06:37 IST" duration-ms="6036">
+  <suite started-at="2024-02-09T19:14:25 IST" name="Default suite" finished-at="2024-02-09T19:14:32 IST" duration-ms="7135">
     <groups>
     </groups>
-    <test started-at="2024-02-08T19:06:31 IST" name="Default test" finished-at="2024-02-08T19:06:37 IST" duration-ms="6036">
-      <class name="POSTAPICalls.CreateUserTest">
-        <test-method is-config="true" signature="createUserId()[pri:0, instance:POSTAPICalls.CreateUserTest@50caa560]" started-at="2024-02-08T19:06:31 IST" name="createUserId" finished-at="2024-02-08T19:06:36 IST" duration-ms="5089" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUserId -->
-        <test-method signature="create_user()[pri:0, instance:POSTAPICalls.CreateUserTest@50caa560]" started-at="2024-02-08T19:06:36 IST" name="create_user" finished-at="2024-02-08T19:06:37 IST" duration-ms="891" status="PASS">
+    <test started-at="2024-02-09T19:14:25 IST" name="Default test" finished-at="2024-02-09T19:14:32 IST" duration-ms="7135">
+      <class name="POSTAPICalls.CreateUserTestWithPoJoTest">
+        <test-method signature="create_user()[pri:0, instance:POSTAPICalls.CreateUserTestWithPoJoTest@740773a3]" started-at="2024-02-09T19:14:25 IST" name="create_user" finished-at="2024-02-09T19:14:32 IST" duration-ms="7062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_user -->
-      </class> <!-- POSTAPICalls.CreateUserTest -->
+      </class> <!-- POSTAPICalls.CreateUserTestWithPoJoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

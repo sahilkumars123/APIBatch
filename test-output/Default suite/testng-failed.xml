@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POSTAPICalls.CreateUserTest">
+      <class name="POSTAPICalls.CreateUserTestWithPoJoTest">
         <methods>
           <include name="create_user"/>
-          <include name="createUserId"/>
         </methods>
-      </class> <!-- POSTAPICalls.CreateUserTest -->
+      </class> <!-- POSTAPICalls.CreateUserTestWithPoJoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
