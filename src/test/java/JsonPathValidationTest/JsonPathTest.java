@@ -61,8 +61,6 @@ RestAssured.baseURI = "https://fakestoreapi.com";
 			
 			
 			System.out.println("--------------------------------");
-			
-		
 	}
 	
 	
@@ -92,16 +90,19 @@ RestAssured.baseURI = "https://fakestoreapi.com";
 			System.out.println("title:: "+title+ " price:: "+price);
 			
 			System.out.println("----------------------------------");
-			
 		}
 		
 	}
 	
 	
+//	a small homework ...need JQL queries for these statements :
+//
+//		1. fetch title of products with rating rate >=4.5
+//		2. fetch title and jewellery category of the products where rate is between 2 and 4
+	//	//$[?(@.category == 'jewelery' && @.rating.rate >=2 && @.rating.rate<=4)].[title,category,id]
+//		3. fetch title and women's clothing category where rating count >=100 and price < 10$
+	//$[?(@.category == "women's clothing" && @.rating.count>=100 && @.price<10)].[title,category]
+	
 
-	
-	
-	
-	
 
 }

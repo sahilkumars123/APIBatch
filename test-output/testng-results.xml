@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-10T17:16:33 IST" name="Default suite" finished-at="2024-02-10T17:16:37 IST" duration-ms="3745">
+  <suite started-at="2024-02-12T19:32:21 IST" name="Default suite" finished-at="2024-02-12T19:32:25 IST" duration-ms="3825">
     <groups>
     </groups>
-    <test started-at="2024-02-10T17:16:33 IST" name="Default test" finished-at="2024-02-10T17:16:37 IST" duration-ms="3745">
-      <class name="JsonPathValidationTest.JsonPathTest">
-        <test-method signature="getJeweleryTitleAndPrice()[pri:0, instance:JsonPathValidationTest.JsonPathTest@186f8716]" started-at="2024-02-10T17:16:33 IST" name="getJeweleryTitleAndPrice" finished-at="2024-02-10T17:16:37 IST" duration-ms="3685" status="PASS">
+    <test started-at="2024-02-12T19:32:21 IST" name="Default test" finished-at="2024-02-12T19:32:25 IST" duration-ms="3825">
+      <class name="com.product.api.ProductAPITest">
+        <test-method signature="productTest()[pri:0, instance:com.product.api.ProductAPITest@157853da]" started-at="2024-02-12T19:32:21 IST" name="productTest" finished-at="2024-02-12T19:32:25 IST" duration-ms="3752" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getJeweleryTitleAndPrice -->
-      </class> <!-- JsonPathValidationTest.JsonPathTest -->
+        </test-method> <!-- productTest -->
+      </class> <!-- com.product.api.ProductAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
