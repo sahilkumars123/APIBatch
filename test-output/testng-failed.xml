@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DeleteAPIs.DeleteUser">
+      <class name="multibody.BodyAPITest">
         <methods>
-          <include name="deleteuser"/>
+          <include name="bodyWithURLEncodedDataTest"/>
         </methods>
-      </class> <!-- DeleteAPIs.DeleteUser -->
+      </class> <!-- multibody.BodyAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
